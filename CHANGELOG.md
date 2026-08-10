@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.14.0](https://github.com/kalijmeeks-maker/career-ops/compare/career-ops-v1.13.0...career-ops-v1.14.0) (2026-08-10)
+
+
+### Features
+
+* add modes/_custom.md for user custom instructions ([#1198](https://github.com/kalijmeeks-maker/career-ops/issues/1198)) ([3cc8844](https://github.com/kalijmeeks-maker/career-ops/commit/3cc8844c51975e2bcd94cb9078bc734a75626c71))
+* **batch:** add --limit flag + budget guide ([0607ee5](https://github.com/kalijmeeks-maker/career-ops/commit/0607ee57e176c93422732ee1ad1530cd606f70b6))
+* **cli:** add Grok Build CLI support ([0a89381](https://github.com/kalijmeeks-maker/career-ops/commit/0a8938186ed8a4787a84b2e5bc1680a55aac59ca))
+* **cv:** add opt-in profile photo for DACH/European CVs ([fcccd58](https://github.com/kalijmeeks-maker/career-ops/commit/fcccd58abf4be7b2d620576ffe754861cab933d4))
+* **modes:** add Danish (da) locale ([5407811](https://github.com/kalijmeeks-maker/career-ops/commit/54078118a70fa6b42123a68450bb584206af8ac4))
+* **modes:** add EU SWE application calibration mode ([f024317](https://github.com/kalijmeeks-maker/career-ops/commit/f02431721ad1cbb7e49882b23ebb4dec00eaafff))
+* **modes:** add recruiter-side application heuristics ([2ea0814](https://github.com/kalijmeeks-maker/career-ops/commit/2ea0814b8436aeae76200a70d2df6be795e498e0))
+
+
+### Bug Fixes
+
+* **plugin:** drop invalid `skills` key + permissions block from plugin.json ([a4fd5aa](https://github.com/kalijmeeks-maker/career-ops/commit/a4fd5aa030106315aea80e372f1e9a02044e801e))
+* **template:** scope break-inside to atomic units to prevent CV pagination breaks ([7ef8182](https://github.com/kalijmeeks-maker/career-ops/commit/7ef81821684b9959acc0f9e76bef2169ca5d6ec0))
+
 ## [1.25.0](https://github.com/santifer/career-ops/compare/career-ops-v1.24.0...career-ops-v1.25.0) (2026-08-04)
 
 
